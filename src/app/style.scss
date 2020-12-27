@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    font-family: "Noto Sans JP", sans-serif !important;
+}
+
+body {
+    overflow: hidden;
+}
+
+/*スクロールバーの幅*/
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+/*スクロールバーのレール*/
+::-webkit-scrollbar-track {
+    background: rgba(127, 127, 127, 0.098);
+}
+
+/*スクロールバーのつまみ*/
+::-webkit-scrollbar-thumb {
+    background: #2323232c;
+}
+
+.ql-snow {
+    border: 0 !important;
+    word-break: break-all;
+}
+
+.ql-toolbar {
+    position: sticky;
+    top: 0;
+    background:  rgba(246, 246, 246, 1);
+    z-index: 1;
+    border-bottom: 2px solid rgba(246, 246, 246, 1)!important;
+}
+
